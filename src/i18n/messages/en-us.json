@@ -1,0 +1,96 @@
+{
+  "HomePage": {
+    "HomeSection": {
+      "title": "FILIPE GUIZZO BORGES",
+      "title-mobile": "FILIPE <br>GUIZZO</br> <br>BORGES</br>",
+      "subtitle": "SOFTWARE DEVELOPER",
+      "subtitle-mobile": "SOFTWARE <br>DEVELOPER</br>"
+    },
+    "AboutSection": {
+      "title": "ABOUT ME",
+      "summary": "Professional with more than two years of market experience, working as a <span>Backend Developer</span> - <span>Python/Django</span> and as a <span>Full Stack Developer</span> - <span> React.js</span> and <span>Nest.js</span>."
+    },
+    "SkillsSection": {
+      "title": "SKILLS",
+      "html-text": "HTML structures the content of web pages with elements such as titles, paragraphs, links and images, forming the basis of any website.",
+      "css-text": "CSS is used to style web pages, controlling colors, fonts, layout and responsiveness, separating appearance from structure.",
+      "js-text": "JavaScript creates interactivity in web pages, manipulating elements and responding to events for dynamic functionality.",
+      "angular-text": "Angular is an open-source JavaScript framework from Google for robust and scalable web applications, using TypeScript and features such as components and dependency injection.",
+      "react-text": "React is a JavaScript library from Facebook for building user interfaces with reusable components and Virtual DOM, creating fast applications.",
+      "nest-text": "NestJS is a Node.js framework for creating scalable, modularized backend applications based on TypeScript, with concepts such as dependency injection.",
+      "next-text": "Next.js is a React framework focused on hybrid rendering (SSR and SSG) and performance optimization for modern web applications.",
+      "express-text": "Express.js is a minimalist framework for Node.js that makes it easy to build web servers and APIs by simplifying routing and middleware.",
+      "ionic-text": "Ionic is a framework for building mobile, web, and desktop applications using technologies like HTML, CSS, and JavaScript, and works well with Angular and React.",
+      "bootstrap-text": "Bootstrap is a front-end framework that makes it easy to build responsive websites with ready-made components like buttons and forms.",
+      "tailwind-text": "Tailwind CSS is a utility framework for styling HTML elements with predefined classes, allowing for flexible and custom designs.",
+      "python-text": "Python is an easy-to-learn programming language widely used in web development, automation, data analysis, and artificial intelligence.",
+      "django-text": "Django is a Python web framework that facilitates rapid and secure application development, offering features such as ORM and administrative panels.",
+      "java-text": "Java is an object-oriented programming language used to create mobile, web, and enterprise applications, known for its portability.",
+      "spring-text": "Spring Boot is a Java framework that facilitates the development of web applications and APIs with less code and simplified configuration.",
+      "postgres-text": "PostgreSQL is an open-source relational database, known for its robustness, scalability, and compliance with SQL standards.",
+      "sql-text": "SQL is a language used to manage relational databases, allowing CRUD operations and defining structure and access control.",
+      "docker-text": "Docker is a platform that allows you to create and run applications in containers, ensuring consistency between development and production environments."
+    },
+    "SummaryDetailsSection": {
+      "title": "Want to know more <span>details</span>? <br>Check out the <span>profile summary</span>!</br>",
+      "title-mobile": "Want to <br>know more</br> <br><span>details</span>?</br> Check <br>out the</br> <span><br>profile</br> summary</span>!",
+      "button": "Go to summary"
+    },
+    "ProjectsSection": {
+      "title": "Projects",
+      "portfolio-v1-name": "Portfolio V1",
+      "portfolio-v1-text": "My first version of the portfolio, where I present initial projects, skills in development and a little about my professional trajectory.",
+      "barberize-name": "Barberize",
+      "barberize-text": "This is a booking application for barbershops, designed to simplify the process of booking appointments. It allows customers to choose services, confirm appointments and receive notifications, while barbers have access to a practical interface to manage their schedule and optimize service",
+      "flappy-bird-name": "Flappy-Bird.Js",
+      "flappy-bird-text": "A recreation of the classic Flappy Bird, developed in pure JavaScript. This project explores simple physics mechanics, event-driven control and dynamic graphics to provide a fun and nostalgic experience",
+      "clima-travel-name": "Clima Travel",
+      "clima-travel-text": "A prototype designed to analyze and predict climate trends from historical documents provided by the government. The system uses this data over the years to provide reliable estimates, assisting in climate planning and monitoring.",
+      "venson-transportes-name": "Venson Transportes",
+      "venson-transportes-text": "Website created to promote the services of a transport company, with information about deliveries, areas of operation and contact methods.",
+      "stock-products-name": "Stock of Products",
+      "stock-products-text": "Product stock control system developed in Python, operated via terminal. Allows for simple inventory management, with features to add, remove and consult items in stock."
+    }
+  },
+  "SummaryPage": {
+    "HomeSection": {
+      "title": "PROFILE SUMMARY",
+      "title-mobile": "PROFILE <br>SUMMARY</br>",
+      "button": "Download"
+    },
+    "SummaryDownloadSection": {
+      "title": "DOWNLOAD PROFILE SUMMARY",
+      "title-mobile": "DOWNLOAD <br>PROFILE SUMMARY</br>",
+      "button": "Baixar"
+    }
+  },
+  "SharedSection": {
+    "ContactSection": {
+      "title": "CONTACT"
+    }
+  },
+  "Components": {
+    "SwitchLanguage": {
+      "label": "Languages"
+    },
+    "Navbar": {
+      "home": "HOME",
+      "about": "ABOUT",
+      "summary": "SUMMARY",
+      "skills": "SKILLS",
+      "projects": "PROJECTS",
+      "contact": "CONTACT"
+    },
+    "Footer": {
+      "website": "Website",
+      "contacts": "Contacts",
+      "reserved": "All rights reserved.",
+      "home": "Home",
+      "about": "About",
+      "summary": "Summary",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  }
+}
