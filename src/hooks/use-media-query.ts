@@ -25,8 +25,8 @@ export function useMediaQuery(): MediaQuery {
   });
 
   useEffect(() => {
-    const currentWidth: number = window.innerWidth ?? 0;
-    const currentHeight: number = window.innerHeight ?? 0;
+    const currentWidth: number = document.documentElement.clientWidth ?? 0;
+    const currentHeight: number = document.documentElement.clientHeight ?? 0;
     setMediaQuery({
       width: currentWidth,
       height: currentHeight,
@@ -41,8 +41,8 @@ export function useMediaQuery(): MediaQuery {
 
   useEffect(() => {
     const handleResize = () => {
-      const currentWidth: number = window.innerWidth ?? 0;
-      const currentHeight: number = window.innerHeight ?? 0;
+      const currentWidth: number = document.documentElement.clientWidth ?? 0;
+      const currentHeight: number = document.documentElement.clientHeight ?? 0;
       setMediaQuery({
         width: currentWidth,
         height: currentHeight,
@@ -56,8 +56,6 @@ export function useMediaQuery(): MediaQuery {
     };
 
     window.addEventListener('resize', handleResize);
-
-    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   return mediaQuery;
