@@ -30,7 +30,7 @@ export function Carousel({
       plugins={[plugin.current]}
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
-      className="absolute top-0 left-0 w-full h-full flex flex-col md:flex-row justify-between items-center overflow-hidden p-5"
+      className="absolute top-0 left-0 w-full h-full flex flex-col md:flex-row justify-evenly md:justify-between items-center overflow-hidden p-5"
       opts={{
         loop: true,
       }}

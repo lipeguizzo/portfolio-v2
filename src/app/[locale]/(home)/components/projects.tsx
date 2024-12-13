@@ -14,7 +14,7 @@ export function ProjectsSection() {
   const { isMobile } = useMediaQuery();
 
   return (
-    <Section id="projects" className="bg-black min-h-[120vh] md:min-h-[70vh]">
+    <Section id="projects" className="bg-black min-h-[150vh] md:min-h-[70vh]">
       <SectionHeader className="min-h-[10vh]">
         <Title size="4xl" color="white" className="text-center">
           {translate('title')}
@@ -25,7 +25,7 @@ export function ProjectsSection() {
           {projectItems.map((project) => (
             <CarouselItem
               key={project.name}
-              className="flex flex-col md:flex-row justify-evenly items-center gap-5 md:gap-10"
+              className="flex flex-col md:flex-row justify-start md:justify-evenly items-center gap-5 md:gap-10"
             >
               <Container
                 direction="column"
@@ -53,7 +53,7 @@ export function ProjectsSection() {
               <Container
                 justify="center"
                 items="center"
-                className="w-[80vw] md:w-[30vw] h-[80vw] md:h-[20vw] rounded-2xl overflow-hidden"
+                className="w-[80vw] md:w-[30vw] h-[25vh] md:h-[40vh] rounded-2xl overflow-hidden"
               >
                 <Image
                   src={`/assets/${project.image}`}
