@@ -79,7 +79,7 @@ export function HomeSection() {
 
       <SectionBackground
         src={!imageUrl ? '/assets/home-banner-loading.webp' : imageUrl}
-        alt="about-banner"
+        alt="home-banner"
       />
     </Section>
   );
